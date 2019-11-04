@@ -7,6 +7,8 @@ import { CardByAttributeComponent } from './cards/card-by-attribute/card-by-attr
 import { CardByClassComponent } from './cards/card-by-class/card-by-class.component';
 import { CardByComponentComponent } from './cards/card-by-component/card-by-component.component';
 import { CardDefaultTransclusionComponent } from './cards/card-default-transclusion/card-default-transclusion.component';
+import { MyCardHeaderComponent } from './cards/my-card-header/my-card-header.component';
+import { MyCardFooterComponent } from './cards/my-card-footer/my-card-footer.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { CardDefaultTransclusionComponent } from './cards/card-default-transclus
     CardByAttributeComponent,
     CardByClassComponent,
     CardByComponentComponent,
-    CardDefaultTransclusionComponent
+    CardDefaultTransclusionComponent,
+    MyCardHeaderComponent,
+    MyCardFooterComponent
   ],
   imports: [
     BrowserModule,

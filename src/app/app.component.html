@@ -37,7 +37,21 @@
 
   <h2>Component transclusion</h2>
 
-  <app-my-card></app-my-card>
+  <app-card-by-component>
+    <app-my-card-header>
+      <h3>The header</h3>
+    </app-my-card-header>
+    <div>
+      <h5>This content is injected by parent</h5>
+      <p>It is a custom html text</p>
+      <b>And it works</b>
+
+    </div>
+    <app-my-card-footer>
+        <b>The footer</b>
+    </app-my-card-footer>
+
+  </app-card-by-component>
 </div>
 
 
